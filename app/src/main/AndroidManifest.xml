@@ -9,6 +9,12 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <!--
+            https://developer.android.com/guide/topics/ui/themes?hl=ja#ApplyATheme
+            https://android.googlesource.com/platform/frameworks/base/+/refs/heads/master/core/res/res/values/themes.xml#681
+            https://developer.android.com/training/tv/start/start?hl=ja#tv-activity
+        -->
         <activity
             android:name=".MainActivity"
             android:theme="@android:style/Theme.Translucent.NoTitleBar">
